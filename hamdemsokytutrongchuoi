@@ -1,0 +1,8 @@
+int countCharacter(char s[]){
+	int count=0,i;
+	while(s[i]!=NULL){
+		if(isalpha(s[i])) count++;
+		i++;
+	}
+	return count;
+}
