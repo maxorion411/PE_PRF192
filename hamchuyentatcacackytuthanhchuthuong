@@ -1,0 +1,8 @@
+int lower(char s[]){
+	int i=0;
+	while(s[i]!=NULL){
+		if(s[i]>='A'&&s[i]<='Z')	s[i]+=32;
+		i++;
+	}
+	puts(s);
+}
