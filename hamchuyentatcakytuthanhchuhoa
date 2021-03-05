@@ -1,0 +1,8 @@
+void upper(char s[]){
+	int i=0;
+	while(s[i]!=NULL){
+		if(s[i]>='a'&&s[i]<='z')	s[i]-=32;
+		i++;
+	}
+	puts(s);
+}
