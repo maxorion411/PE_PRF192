@@ -1,0 +1,7 @@
+
+int countLength(char s[]){
+	int count=0;
+	while(s[count++]!=NULL){
+	}
+	return count-1;
+}
